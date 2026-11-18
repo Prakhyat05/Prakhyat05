@@ -1,0 +1,16 @@
+# Temporary preview and test files
+preview_*.png
+intro_preview.png
+test_*.png
+_temp_opt.png
+id_cropped_highres.png
+id_highres_transparent.png
+id_700h.png
+id_tight.png
+Prakhyat_Idea_Pic.png
+Prakhyat_Idea_Pic_1.png
+Confident_Man_in_Leather_Jacket-removebg-preview.png
+github-profile-prakhyat.zip
+render_all_previews.py
+test_render.py
+optimized/
