@@ -32,11 +32,6 @@
       <circle cx="2" cy="2" r="1.2" fill="#2DD4BF" opacity="0.08"/>
     </pattern>
 
-    <filter id="contribGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
     <filter id="shadowContrib" x="-10%" y="-10%" width="130%" height="130%">
       <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.55"/>
     </filter>
@@ -48,7 +43,6 @@
       .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
       .font-mono { font-family: 'Fira Code', 'SF Mono', Consolas, Menlo, Monaco, monospace; }
 
-      /* Sankey Flow Energy Dashes */
       .flow-stream-1 {
         stroke-dasharray: 10 22;
         animation: flowSankey1 2.8s linear infinite;
@@ -76,7 +70,6 @@
         to { stroke-dashoffset: -112; }
       }
 
-      /* Node Junction Pulse */
       .pulse-node {
         animation: pulseJunction 2.2s ease-in-out infinite;
       }
@@ -85,7 +78,6 @@
         50% { r: 6.5; opacity: 1; filter: drop-shadow(0 0 5px #2DD4BF); }
       }
 
-      /* Heatmap Wave */
       .heat-cell {
         animation: heatPulse 4.5s ease-in-out infinite;
       }
@@ -94,16 +86,8 @@
         50% { opacity: 1; filter: drop-shadow(0 0 3px #34D399); }
       }
 
-      .stat-badge-pulse {
-        animation: statPulse 3s ease-in-out infinite alternate;
-      }
-      @keyframes statPulse {
-        0% { stroke-opacity: 0.3; }
-        100% { stroke-opacity: 0.9; }
-      }
-
       @media (prefers-reduced-motion: reduce) {
-        .flow-stream-1, .flow-stream-2, .flow-stream-3, .pulse-node, .heat-cell, .stat-badge-pulse {
+        .flow-stream-1, .flow-stream-2, .flow-stream-3, .pulse-node, .heat-cell {
           animation: none !important;
           stroke-dashoffset: 0 !important;
           opacity: 1 !important;
@@ -125,71 +109,54 @@
     <text x="0" y="66" class="font-sans" font-size="12.5" fill="#9CA3AF">Active commits flowing through computer vision kinematics, microservices, and verified deployments</text>
   </g>
 
-  <!-- ==========================================
-       SANKEY FLOW DIAGRAM
-       Col 1 (Repos): X = 36 to 220
-       Col 2 (Pipelines): X = 370 to 580
-       Col 3 (Deliverables): X = 730 to 924
-       ========================================== -->
-
-  <!-- Flow Ribbons Layer (Under nodes) -->
+  <!-- Flow Ribbons Layer -->
   <g fill="none">
-    <!-- REPO 1: CycleOne -> Pipes 1 & 3 -->
     <path d="M 220,126 C 295,126 295,135 370,135" stroke="url(#ribbonGrad1)" stroke-width="10" opacity="0.25"/>
     <path d="M 220,126 C 295,126 295,135 370,135" stroke="#2DD4BF" stroke-width="2.5" class="flow-stream-1"/>
 
     <path d="M 220,126 C 295,126 295,235 370,235" stroke="url(#ribbonGrad2)" stroke-width="8" opacity="0.2"/>
     <path d="M 220,126 C 295,126 295,235 370,235" stroke="#34D399" stroke-width="2" class="flow-stream-2"/>
 
-    <!-- REPO 2: LuminAI -> Pipes 2 & 1 -->
     <path d="M 220,174 C 295,174 295,185 370,185" stroke="url(#ribbonGrad3)" stroke-width="12" opacity="0.3"/>
     <path d="M 220,174 C 295,174 295,185 370,185" stroke="#6EE7B7" stroke-width="2.8" class="flow-stream-3"/>
 
     <path d="M 220,174 C 295,174 295,135 370,135" stroke="url(#ribbonGrad1)" stroke-width="8" opacity="0.2"/>
     <path d="M 220,174 C 295,174 295,135 370,135" stroke="#2DD4BF" stroke-width="2" class="flow-stream-1"/>
 
-    <!-- REPO 3: OmniMark -> Pipes 2 & 3 -->
     <path d="M 220,222 C 295,222 295,185 370,185" stroke="url(#ribbonGrad2)" stroke-width="10" opacity="0.25"/>
     <path d="M 220,222 C 295,222 295,185 370,185" stroke="#34D399" stroke-width="2.5" class="flow-stream-2"/>
 
     <path d="M 220,222 C 295,222 295,235 370,235" stroke="url(#ribbonGrad1)" stroke-width="8" opacity="0.2"/>
     <path d="M 220,222 C 295,222 295,235 370,235" stroke="#2DD4BF" stroke-width="2" class="flow-stream-1"/>
 
-    <!-- REPO 4: IESSD-26 -> Pipes 1 & 4 -->
     <path d="M 220,270 C 295,270 295,135 370,135" stroke="url(#ribbonGrad3)" stroke-width="8" opacity="0.2"/>
     <path d="M 220,270 C 295,270 295,135 370,135" stroke="#6EE7B7" stroke-width="2" class="flow-stream-3"/>
 
     <path d="M 220,270 C 295,270 295,285 370,285" stroke="url(#ribbonGrad2)" stroke-width="10" opacity="0.25"/>
     <path d="M 220,270 C 295,270 295,285 370,285" stroke="#34D399" stroke-width="2.5" class="flow-stream-2"/>
 
-    <!-- REPO 5: rapsapp -> Pipes 3 & 4 -->
     <path d="M 220,318 C 295,318 295,235 370,235" stroke="url(#ribbonGrad1)" stroke-width="8" opacity="0.2"/>
     <path d="M 220,318 C 295,318 295,235 370,235" stroke="#2DD4BF" stroke-width="2" class="flow-stream-1"/>
 
     <path d="M 220,318 C 295,318 295,285 370,285" stroke="url(#ribbonGrad3)" stroke-width="10" opacity="0.25"/>
     <path d="M 220,318 C 295,318 295,285 370,285" stroke="#6EE7B7" stroke-width="2.5" class="flow-stream-3"/>
 
-    <!-- MIDDLE TO DELIVERABLES -->
-    <!-- Pipe 1 -> Deliverable 1 -->
+    <!-- Middle to Deliverables -->
     <path d="M 580,135 C 655,135 655,135 730,135" stroke="url(#ribbonGrad1)" stroke-width="11" opacity="0.3"/>
     <path d="M 580,135 C 655,135 655,135 730,135" stroke="#2DD4BF" stroke-width="2.6" class="flow-stream-1"/>
 
-    <!-- Pipe 2 -> Deliverable 2 -->
     <path d="M 580,185 C 655,185 655,185 730,185" stroke="url(#ribbonGrad3)" stroke-width="11" opacity="0.3"/>
     <path d="M 580,185 C 655,185 655,185 730,185" stroke="#6EE7B7" stroke-width="2.6" class="flow-stream-3"/>
 
-    <!-- Pipe 3 -> Deliverable 3 -->
     <path d="M 580,235 C 655,235 655,235 730,235" stroke="url(#ribbonGrad2)" stroke-width="11" opacity="0.3"/>
     <path d="M 580,235 C 655,235 655,235 730,235" stroke="#34D399" stroke-width="2.6" class="flow-stream-2"/>
 
-    <!-- Pipe 4 -> Deliverable 4 -->
     <path d="M 580,285 C 655,285 655,285 730,285" stroke="url(#ribbonGrad1)" stroke-width="11" opacity="0.3"/>
     <path d="M 580,285 C 655,285 655,285 730,285" stroke="#2DD4BF" stroke-width="2.6" class="flow-stream-1"/>
   </g>
 
   <!-- COLUMN 1: SOURCE REPOSITORIES -->
   <g transform="translate(36, 105)">
-    <!-- Node 1: CycleOne -->
     <g transform="translate(0, 0)">
       <rect width="184" height="38" rx="8" fill="#0C2518" stroke="#10B981" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="16" cy="19" r="6" fill="#10B981" fill-opacity="0.3"/>
@@ -199,7 +166,6 @@
       <circle cx="184" cy="19" r="4" fill="#2DD4BF"/>
     </g>
 
-    <!-- Node 2: LuminAI -->
     <g transform="translate(0, 48)">
       <rect width="184" height="38" rx="8" fill="#0C2518" stroke="#2DD4BF" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="16" cy="19" r="6" fill="#2DD4BF" fill-opacity="0.3"/>
@@ -209,7 +175,6 @@
       <circle cx="184" cy="19" r="4" fill="#2DD4BF"/>
     </g>
 
-    <!-- Node 3: OmniMark -->
     <g transform="translate(0, 96)">
       <rect width="184" height="38" rx="8" fill="#0C2518" stroke="#34D399" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="16" cy="19" r="6" fill="#34D399" fill-opacity="0.3"/>
@@ -219,7 +184,6 @@
       <circle cx="184" cy="19" r="4" fill="#34D399"/>
     </g>
 
-    <!-- Node 4: IESSD-26 -->
     <g transform="translate(0, 144)">
       <rect width="184" height="38" rx="8" fill="#0C2518" stroke="#10B981" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="16" cy="19" r="6" fill="#10B981" fill-opacity="0.3"/>
@@ -229,7 +193,6 @@
       <circle cx="184" cy="19" r="4" fill="#10B981"/>
     </g>
 
-    <!-- Node 5: rapsapp -->
     <g transform="translate(0, 192)">
       <rect width="184" height="38" rx="8" fill="#0C2518" stroke="#2DD4BF" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="16" cy="19" r="6" fill="#2DD4BF" fill-opacity="0.3"/>
@@ -242,7 +205,6 @@
 
   <!-- COLUMN 2: COMMIT & ENGINEERING STREAMS -->
   <g transform="translate(370, 115)">
-    <!-- Stream 1 -->
     <g transform="translate(0, 0)">
       <rect width="210" height="40" rx="9" fill="#123824" stroke="#2DD4BF" stroke-width="1" filter="url(#shadowContrib)"/>
       <text x="14" y="18" class="font-mono" font-size="10" font-weight="700" fill="#2DD4BF">STREAM 01 // CORE STATE</text>
@@ -251,7 +213,6 @@
       <circle cx="210" cy="20" r="3.5" fill="#2DD4BF"/>
     </g>
 
-    <!-- Stream 2 -->
     <g transform="translate(0, 50)">
       <rect width="210" height="40" rx="9" fill="#123824" stroke="#6EE7B7" stroke-width="1" filter="url(#shadowContrib)"/>
       <text x="14" y="18" class="font-mono" font-size="10" font-weight="700" fill="#6EE7B7">STREAM 02 // ON-DEVICE AI</text>
@@ -260,7 +221,6 @@
       <circle cx="210" cy="20" r="3.5" fill="#6EE7B7"/>
     </g>
 
-    <!-- Stream 3 -->
     <g transform="translate(0, 100)">
       <rect width="210" height="40" rx="9" fill="#123824" stroke="#34D399" stroke-width="1" filter="url(#shadowContrib)"/>
       <text x="14" y="18" class="font-mono" font-size="10" font-weight="700" fill="#34D399">STREAM 03 // CLOUD APIS</text>
@@ -269,7 +229,6 @@
       <circle cx="210" cy="20" r="3.5" fill="#34D399"/>
     </g>
 
-    <!-- Stream 4 -->
     <g transform="translate(0, 150)">
       <rect width="210" height="40" rx="9" fill="#123824" stroke="#10B981" stroke-width="1" filter="url(#shadowContrib)"/>
       <text x="14" y="18" class="font-mono" font-size="10" font-weight="700" fill="#10B981">STREAM 04 // PERFORMANCE</text>
@@ -281,7 +240,6 @@
 
   <!-- COLUMN 3: IMPACT & DELIVERABLES -->
   <g transform="translate(730, 115)">
-    <!-- Deliverable 1 -->
     <g transform="translate(0, 0)">
       <rect width="194" height="40" rx="9" fill="#0E2D1D" stroke="#2DD4BF" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="0" cy="20" r="3.5" fill="#2DD4BF"/>
@@ -289,7 +247,6 @@
       <text x="14" y="31" class="font-sans" font-size="12" font-weight="800" fill="#FFFFFF">500+ Commuters • 99.5%</text>
     </g>
 
-    <!-- Deliverable 2 -->
     <g transform="translate(0, 50)">
       <rect width="194" height="40" rx="9" fill="#0E2D1D" stroke="#6EE7B7" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="0" cy="20" r="3.5" fill="#6EE7B7"/>
@@ -297,7 +254,6 @@
       <text x="14" y="31" class="font-sans" font-size="12" font-weight="800" fill="#FFFFFF">30+ FPS Pose Detection</text>
     </g>
 
-    <!-- Deliverable 3 -->
     <g transform="translate(0, 100)">
       <rect width="194" height="40" rx="9" fill="#0E2D1D" stroke="#34D399" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="0" cy="20" r="3.5" fill="#34D399"/>
@@ -305,7 +261,6 @@
       <text x="14" y="31" class="font-sans" font-size="12" font-weight="800" fill="#FFFFFF">Automated Mobile Grading</text>
     </g>
 
-    <!-- Deliverable 4 -->
     <g transform="translate(0, 150)">
       <rect width="194" height="40" rx="9" fill="#0E2D1D" stroke="#10B981" stroke-width="1" filter="url(#shadowContrib)"/>
       <circle cx="0" cy="20" r="3.5" fill="#10B981"/>
@@ -314,13 +269,10 @@
     </g>
   </g>
 
-  <!-- ==========================================
-       BOTTOM TELEMETRY & CONTRIBUTION HEATMAP
-       ========================================== -->
+  <!-- BOTTOM TELEMETRY & CONTRIBUTION HEATMAP -->
   <g transform="translate(36, 385)">
     <rect width="888" height="125" rx="14" fill="#0A2216" stroke="#2DD4BF" stroke-width="1" stroke-opacity="0.4" filter="url(#shadowContrib)"/>
 
-    <!-- Heatmap Grid Title & Indicators -->
     <g transform="translate(20, 18)">
       <text x="0" y="0" class="font-mono" font-size="10.5" font-weight="700" fill="#A7F3D0" letter-spacing="1">ACTIVITY DENSITY &amp; COMMITS HEATMAP</text>
       <text x="400" y="0" class="font-mono" font-size="9.5" fill="#9CA3AF">Less</text>
@@ -331,7 +283,6 @@
       <rect x="488" y="-9" width="10" height="10" rx="2" fill="#6EE7B7"/>
       <text x="506" y="0" class="font-mono" font-size="9.5" fill="#9CA3AF">More</text>
 
-      <!-- The 4x35 Matrix -->
       <g transform="translate(0, 15)">
         <rect x="0" y="0" width="11" height="11" rx="2.5" fill="#10B981" class="heat-cell" style="animation-delay: 0.0s;"/>
       <rect x="0" y="15" width="11" height="11" rx="2.5" fill="#064E3B" class="heat-cell" style="animation-delay: 0.04s;"/>
@@ -476,13 +427,12 @@
       </g>
     </g>
 
-    <!-- Right Side HUD Metrics -->
     <g transform="translate(585, 20)">
       <line x1="0" y1="0" x2="0" y2="85" stroke="#2DD4BF" stroke-opacity="0.2" stroke-width="1"/>
       
       <g transform="translate(24, 6)">
         <text x="0" y="16" class="font-mono" font-size="10" font-weight="700" fill="#34D399">TOTAL REPO COMMITS</text>
-        <text x="0" y="38" class="font-sans" font-size="24" font-weight="900" fill="#FFFFFF">850+</text>
+        <text x="0" y="38" class="font-sans" font-size="24" font-weight="900" fill="#FFFFFF">2,093</text>
       </g>
 
       <g transform="translate(160, 6)">

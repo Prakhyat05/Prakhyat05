@@ -132,7 +132,6 @@
       </g>
     </g>
 
-    <!-- Interactive Hint -->
     <text x="2" y="324" class="font-mono" font-size="11.5" fill="#2DD4BF">⚡ Click the direct markdown links below to connect instantly</text>
   </g>
 </svg>

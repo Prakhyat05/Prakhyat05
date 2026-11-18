@@ -11,14 +11,16 @@
   <a href="mailto:prakhyatprakhar2004@gmail.com"><img src="https://img.shields.io/badge/Email-prakhyatprakhar2004%40gmail.com-2DD4BF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
 </p>
 
-> 📥 **Quick Resume Download**: Looking for my credentials? **[Click here to Download Prakhyat's Resume (PDF)](https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/Prakhyat-Prakhar-Resume.pdf)** or access [`Prakhyat-Prakhar-Resume.pdf`](Prakhyat-Prakhar-Resume.pdf) directly.
+> 📥 **Direct Resume Download**: Looking for my credentials? **[Click here to Download Prakhyat's Resume (PDF)](https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/Prakhyat-Prakhar-Resume.pdf)** or view [`Prakhyat-Prakhar-Resume.pdf`](Prakhyat-Prakhar-Resume.pdf) in this repository.
 
 ---
 
 ## ⚡ 1. Introduction &amp; Core Identity
 
 <p align="center">
-  <img src="intro.svg?v=1" alt="Prakhyat Prakhar Intro Banner" width="100%" />
+  <a href="https://github.com/Prakhyat05">
+    <img src="assets/intro.svg?v=1" alt="Prakhyat Prakhar Intro Banner" width="100%" />
+  </a>
 </p>
 
 ---
@@ -26,7 +28,9 @@
 ## 🚀 2. Currently Focused On (Building • Learning • Reading)
 
 <p align="center">
-  <img src="right-now.svg?v=1" alt="What I'm Doing Right Now" width="100%" />
+  <a href="#-key-featured-repositories">
+    <img src="assets/right-now.svg?v=1" alt="What I'm Doing Right Now" width="100%" />
+  </a>
 </p>
 
 ---
@@ -34,23 +38,39 @@
 ## ⌨️ 3. Developer Arsenal &amp; Mechanical Keyboard Stack
 
 <p align="center">
-  <img src="toolkit.svg?v=1" alt="Prakhyat's Developer Toolkit as Keyboard Keys" width="100%" />
+  <a href="https://github.com/Prakhyat05?tab=repositories">
+    <img src="assets/toolkit.svg?v=1" alt="Prakhyat's Developer Toolkit as Keyboard Keys" width="100%" />
+  </a>
 </p>
 
 ---
 
-## 🌊 4. Git Contributions &amp; Commit Flow Architecture
+## 🐍 4. Live 365-Day GitHub Contribution Snake
 
 <p align="center">
-  <img src="contributions.svg?v=1" alt="Prakhyat's Git Commit Lifecycle and Sankey Contribution Stream" width="100%" />
+  <a href="https://github.com/Prakhyat05">
+    <img src="assets/github-contribution-grid-snake.svg?v=1" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation" width="100%" />
+  </a>
 </p>
 
 ---
 
-## 💼 5. Production Repositories &amp; Engineering Deployments
+## 🌊 5. Git Contributions &amp; Commit Flow Architecture
 
 <p align="center">
-  <img src="projects.svg?v=1" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
+  <a href="https://github.com/Prakhyat05">
+    <img src="assets/contributions.svg?v=1" alt="Prakhyat's Git Commit Lifecycle and Sankey Contribution Stream" width="100%" />
+  </a>
+</p>
+
+---
+
+## 💼 6. Production Repositories &amp; Engineering Deployments
+
+<p align="center">
+  <a href="https://github.com/Prakhyat05/LuminAI">
+    <img src="assets/projects.svg?v=1" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
+  </a>
 </p>
 
 ### 🛠️ Key Featured Repositories
@@ -65,26 +85,32 @@
 
 ---
 
-## 🃏 6. Collectible Player Card &amp; Engineering Lore
+## 🃏 7. Collectible Player Card &amp; Engineering Lore
 
 <p align="center">
-  <img src="card.svg?v=1" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="100%" />
+  <a href="#-prakhyat-prakhar-">
+    <img src="assets/card.svg?v=1" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="100%" />
+  </a>
 </p>
 
 ---
 
-## 🤝 7. Collaboration &amp; Opportunities Terminal
+## 🤝 8. Collaboration &amp; Opportunities Terminal
 
 <p align="center">
-  <img src="contact.svg?v=1" alt="Call to Collaborate with Prakhyat" width="100%" />
+  <a href="https://www.linkedin.com/in/prakhyat-prakhar/">
+    <img src="assets/contact.svg?v=1" alt="Call to Collaborate with Prakhyat" width="100%" />
+  </a>
 </p>
 
 ---
 
-## 👋 8. Say Hi &amp; Connect
+## 👋 9. Say Hi &amp; Connect
 
 <p align="center">
-  <img src="say-hi.svg?v=1" alt="Say Hi to Prakhyat" width="100%" />
+  <a href="https://www.linkedin.com/in/prakhyat-prakhar/">
+    <img src="assets/say-hi.svg?v=1" alt="Say Hi to Prakhyat" width="100%" />
+  </a>
 </p>
 
 ### 📬 Quick Direct Connect Links

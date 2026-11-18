@@ -68,7 +68,7 @@
   <!-- CARDS GRID: 5 Repositories -->
   <g transform="translate(36, 105)">
 
-    <!-- CARD 1: CycleOne SLIET (Top Left) -->
+    <!-- CARD 1: CycleOne SLIET -->
     <g transform="translate(0, 0)">
       <rect width="320" height="118" rx="12" fill="#113120" stroke="#2DD4BF" stroke-width="1" class="badge-glow" filter="url(#shadowProjects)"/>
       <circle cx="28" cy="28" r="14" fill="#0A1F14"/>
@@ -80,7 +80,7 @@
       <text x="14" y="108" class="font-mono" font-size="9" fill="#6EE7B7">github.com/CycleOne-Sliet/App</text>
     </g>
 
-    <!-- CARD 2: LuminAI (Top Middle) -->
+    <!-- CARD 2: LuminAI -->
     <g transform="translate(338, 0)">
       <rect width="320" height="118" rx="12" fill="#113120" stroke="#2DD4BF" stroke-width="1" class="badge-glow" filter="url(#shadowProjects)"/>
       <circle cx="28" cy="28" r="14" fill="#0A1F14"/>
@@ -92,7 +92,7 @@
       <text x="14" y="108" class="font-mono" font-size="9" fill="#6EE7B7">github.com/Prakhyat05/LuminAI</text>
     </g>
 
-    <!-- CARD 3: OmniMark OMR Evaluator (Bottom Left) -->
+    <!-- CARD 3: OmniMark OMR Evaluator -->
     <g transform="translate(0, 134)">
       <rect width="320" height="118" rx="12" fill="#113120" stroke="#34D399" stroke-width="1" class="badge-glow" filter="url(#shadowProjects)"/>
       <circle cx="28" cy="28" r="14" fill="#0A1F14"/>
@@ -104,7 +104,7 @@
       <text x="14" y="108" class="font-mono" font-size="9" fill="#6EE7B7">github.com/Prakhyat05/OmniMark...</text>
     </g>
 
-    <!-- CARD 4: IESSD-26 (Bottom Middle) -->
+    <!-- CARD 4: IESSD-26 -->
     <g transform="translate(338, 134)">
       <rect width="320" height="118" rx="12" fill="#113120" stroke="#10B981" stroke-width="1" class="badge-glow" filter="url(#shadowProjects)"/>
       <circle cx="28" cy="28" r="14" fill="#0A1F14"/>
@@ -116,7 +116,7 @@
       <text x="14" y="108" class="font-mono" font-size="9" fill="#6EE7B7">github.com/Prakhyat05/IESSD-26</text>
     </g>
 
-    <!-- CARD 5: RapsApp (Bottom Row Wide) -->
+    <!-- CARD 5: RapsApp -->
     <g transform="translate(0, 268)">
       <rect width="658" height="105" rx="12" fill="#113120" stroke="#2DD4BF" stroke-width="1" class="badge-glow" filter="url(#shadowProjects)"/>
       <circle cx="28" cy="28" r="14" fill="#0A1F14"/>

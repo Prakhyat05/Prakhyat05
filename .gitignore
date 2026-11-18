@@ -1,4 +1,4 @@
-# Temporary preview and test files
+# Temporary preview, test and scratch files
 preview_*.png
 intro_preview.png
 test_*.png
@@ -14,3 +14,7 @@ github-profile-prakhyat.zip
 render_all_previews.py
 test_render.py
 optimized/
+__pycache__/
+*.pyc
+*.py
+snake_sample.svg
