@@ -17,4 +17,5 @@ optimized/
 __pycache__/
 *.pyc
 *.py
+!scripts/build_snake.py
 snake_sample.svg

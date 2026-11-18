@@ -45,27 +45,17 @@
 
 ---
 
-## 🐍 4. Live 365-Day GitHub Contribution Snake
+## 🐍 4. Live 365-Day GitHub Contribution Snake &amp; Commit Telemetry
 
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="assets/github-contribution-grid-snake.svg?v=1" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation" width="100%" />
+    <img src="assets/github-contribution-grid-snake.svg?v=1" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
   </a>
 </p>
 
 ---
 
-## 🌊 5. Git Contributions &amp; Commit Flow Architecture
-
-<p align="center">
-  <a href="https://github.com/Prakhyat05">
-    <img src="assets/contributions.svg?v=1" alt="Prakhyat's Git Commit Lifecycle and Sankey Contribution Stream" width="100%" />
-  </a>
-</p>
-
----
-
-## 💼 6. Production Repositories &amp; Engineering Deployments
+## 💼 5. Production Repositories &amp; Engineering Deployments
 
 <p align="center">
   <a href="https://github.com/Prakhyat05/LuminAI">
@@ -85,17 +75,17 @@
 
 ---
 
-## 🃏 7. Collectible Player Card &amp; Engineering Lore
+## 🃏 6. Collectible Player Card &amp; Engineering Lore
 
 <p align="center">
-  <a href="#-prakhyat-prakhar-">
-    <img src="assets/card.svg?v=1" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="100%" />
+  <a href="https://github.com/Prakhyat05">
+    <img src="assets/card.svg?v=1" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="480" />
   </a>
 </p>
 
 ---
 
-## 🤝 8. Collaboration &amp; Opportunities Terminal
+## 🤝 7. Collaboration &amp; Opportunities Terminal
 
 <p align="center">
   <a href="https://www.linkedin.com/in/prakhyat-prakhar/">
@@ -105,7 +95,7 @@
 
 ---
 
-## 👋 9. Say Hi &amp; Connect
+## 👋 8. Say Hi &amp; Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/prakhyat-prakhar/">
