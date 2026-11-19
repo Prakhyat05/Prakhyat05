@@ -71,7 +71,7 @@
 ### 🐍 Autonomous 365-Day Contribution Snake Animation
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2224" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2225" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
   </a>
 </p>
 
