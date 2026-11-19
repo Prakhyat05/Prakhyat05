@@ -108,26 +108,40 @@
       <line x1="0" y1="94" x2="525" y2="94" stroke="#2DD4BF" stroke-opacity="0.2" stroke-width="1"/>
 
       <!-- Contact Actions Box -->
-      <g transform="translate(0, 110)">
-        <text class="font-mono" font-size="12" font-weight="700" fill="#A7F3D0">DIRECT CHANNELS READY FOR DISPATCH:</text>
+      <g transform="translate(0, 108)">
+        <text class="font-mono" font-size="11.5" font-weight="700" fill="#A7F3D0">DIRECT CHANNELS READY FOR DISPATCH:</text>
         
-        <!-- Email Pill -->
-        <g transform="translate(0, 18)">
-          <rect width="250" height="34" rx="8" fill="#133824" stroke="#10B981" stroke-width="0.8"/>
-          <text x="12" y="21" class="font-sans" font-size="11.5" font-weight="600" fill="#ECFDF5">✉️ prakhyatprakhar2004@gmail.com</text>
+        <!-- Row 1: Portfolio & LinkedIn -->
+        <g transform="translate(0, 16)">
+          <!-- Portfolio Pill -->
+          <rect width="255" height="32" rx="8" fill="#003B36" stroke="#00C7B7" stroke-width="1"/>
+          <text x="12" y="20" class="font-mono" font-size="11" font-weight="600" fill="#2DD4BF">🌐 prakhyatprakhar.netlify.app</text>
+
+          <!-- LinkedIn Pill -->
+          <g transform="translate(265, 0)">
+            <rect width="255" height="32" rx="8" fill="#133824" stroke="#2DD4BF" stroke-width="0.8"/>
+            <text x="12" y="20" class="font-mono" font-size="11" font-weight="600" fill="#ECFDF5">💼 in/prakhyat-prakhar</text>
+          </g>
         </g>
 
-        <!-- LinkedIn Pill -->
-        <g transform="translate(265, 18)">
-          <rect width="260" height="34" rx="8" fill="#133824" stroke="#2DD4BF" stroke-width="0.8"/>
-          <text x="12" y="21" class="font-mono" font-size="11.5" font-weight="600" fill="#ECFDF5">💼 in/prakhyat-prakhar</text>
+        <!-- Row 2: Email & GitHub -->
+        <g transform="translate(0, 56)">
+          <!-- Email Pill -->
+          <rect width="255" height="32" rx="8" fill="#133824" stroke="#10B981" stroke-width="0.8"/>
+          <text x="12" y="20" class="font-sans" font-size="11" font-weight="600" fill="#ECFDF5">✉️ prakhyatprakhar2004@gmail.com</text>
+
+          <!-- GitHub Pill -->
+          <g transform="translate(265, 0)">
+            <rect width="255" height="32" rx="8" fill="#133824" stroke="#34D399" stroke-width="0.8"/>
+            <text x="12" y="20" class="font-mono" font-size="11" font-weight="600" fill="#ECFDF5">🐙 github.com/Prakhyat05</text>
+          </g>
         </g>
       </g>
 
       <!-- Blinking Terminal Prompt -->
-      <g transform="translate(0, 198)">
-        <text class="font-mono" font-size="13" font-weight="600" fill="#2DD4BF">prakhyat@production:~$ connect --instant</text>
-        <rect class="term-cursor" x="305" y="-12" width="8" height="16" fill="#34D399"/>
+      <g transform="translate(0, 214)">
+        <text class="font-mono" font-size="13" font-weight="600" fill="#2DD4BF">prakhyat@production:~$ open https://prakhyatprakhar.netlify.app</text>
+        <rect class="term-cursor" x="480" y="-12" width="8" height="16" fill="#34D399"/>
       </g>
     </g>
   </g>

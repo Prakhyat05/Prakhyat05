@@ -48,32 +48,32 @@
     <g transform="translate(680, 0)">
       <rect x="0" y="0" width="208" height="24" rx="12" fill="#082216" stroke="#10B981" stroke-width="0.8"/>
       <circle cx="12" cy="12" r="3.5" fill="#10B981"/>
-      <text x="24" y="16" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#6EE7B7">SYNCED VIA ACTIONS // 12H</text>
+      <text x="24" y="16" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#6EE7B7">SYNCED VIA ACTIONS // LIVE</text>
     </g>
   </g>
 
-  <!-- 4 Big Live Stats Counters (No repo mentions, purely commit & contribution metrics) -->
+  <!-- 4 Big Live Stats Counters (Real-time synced from GitHub) -->
   <g transform="translate(36, 62)">
     <!-- Metric 1: Total Contributions -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#2DD4BF" letter-spacing="0.5">2,093</text>
+      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#2DD4BF" letter-spacing="0.5">2,103</text>
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">TOTAL CONTRIBUTIONS</text>
       <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">Past 365 Days Verified</text>
     </g>
 
-    <!-- Metric 2: Total Commits -->
+    <!-- Metric 2: Total Commits & Merges -->
     <g transform="translate(226, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#34D399" letter-spacing="0.5">2,093+</text>
+      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#34D399" letter-spacing="0.5">2,103+</text>
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">RECORDED COMMITS</text>
-      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">Code Releases &amp; Merges</text>
+      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">Production Code Merges</text>
     </g>
 
     <!-- Metric 3: Active Days -->
     <g transform="translate(452, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#FCD34D" letter-spacing="0.5">368</text>
+      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#FCD34D" letter-spacing="0.5">324</text>
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">DAYS MONITORED</text>
       <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#FDE68A">Continuous Engineering</text>
     </g>
@@ -83,7 +83,7 @@
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
       <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#F472B6" letter-spacing="0.5">TOP 1%</text>
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">COMMIT VELOCITY</text>
-      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#FBCFE8">5.7 Commits / Day Avg</text>
+      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#FBCFE8">5.8 Commits / Day Avg</text>
     </g>
   </g>
 
@@ -106,6 +106,6 @@
     <text x="108" y="0" font-family="'Fira Code', monospace" font-size="10" fill="#9CA3AF">More</text>
 
     <text x="320" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Autonomous snake slithering across real-time 365-day commit history</text>
-    <text x="730" y="0" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#2DD4BF">● 2,093 TOTAL COMMITS</text>
+    <text x="730" y="0" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#2DD4BF">● 2,103 TOTAL COMMITS</text>
   </g>
 </svg>

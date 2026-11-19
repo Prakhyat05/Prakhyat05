@@ -5,20 +5,22 @@
 </p>
 
 <p align="center">
+  <a href="https://prakhyatprakhar.netlify.app/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-prakhyatprakhar.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Portfolio Website" /></a>
   <a href="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/Prakhyat-Prakhar-Resume.pdf"><img src="https://img.shields.io/badge/📄_Curriculum_Vitae-Download_Resume_PDF-10B981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download Resume" /></a>
   <a href="https://www.linkedin.com/in/prakhyat-prakhar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/Prakhyat05"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:prakhyatprakhar2004@gmail.com"><img src="https://img.shields.io/badge/Email-prakhyatprakhar2004%40gmail.com-2DD4BF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
 </p>
 
-> 📥 **Direct Resume Download**: Looking for my credentials? **[Click here to Download Prakhyat's Resume (PDF)](https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/Prakhyat-Prakhar-Resume.pdf)** or view [`Prakhyat-Prakhar-Resume.pdf`](Prakhyat-Prakhar-Resume.pdf) in this repository.
+> 🌐 **Interactive Portfolio**: Experience interactive 3D demos, live architectural deployments, and project showcases at **[prakhyatprakhar.netlify.app](https://prakhyatprakhar.netlify.app/)**  
+> 📥 **Direct Resume Download**: Looking for my credentials? **[Download Prakhyat's Resume (PDF)](https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/Prakhyat-Prakhar-Resume.pdf)** or view [`Prakhyat-Prakhar-Resume.pdf`](Prakhyat-Prakhar-Resume.pdf) in this repository.
 
 ---
 
 ## ⚡ 1. Introduction &amp; Core Identity
 
 <p align="center">
-  <a href="https://github.com/Prakhyat05">
+  <a href="https://prakhyatprakhar.netlify.app/">
     <img src="assets/intro.svg?v=1" alt="Prakhyat Prakhar Intro Banner" width="100%" />
   </a>
 </p>
@@ -78,7 +80,7 @@
 ## 🃏 6. Collectible Player Card &amp; Engineering Lore
 
 <p align="center">
-  <a href="https://github.com/Prakhyat05">
+  <a href="https://prakhyatprakhar.netlify.app/">
     <img src="assets/card.svg?v=1" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="480" />
   </a>
 </p>
@@ -88,7 +90,7 @@
 ## 🤝 7. Collaboration &amp; Opportunities Terminal
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/prakhyat-prakhar/">
+  <a href="https://prakhyatprakhar.netlify.app/">
     <img src="assets/contact.svg?v=1" alt="Call to Collaborate with Prakhyat" width="100%" />
   </a>
 </p>
@@ -98,12 +100,13 @@
 ## 👋 8. Say Hi &amp; Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/prakhyat-prakhar/">
+  <a href="https://prakhyatprakhar.netlify.app/">
     <img src="assets/say-hi.svg?v=1" alt="Say Hi to Prakhyat" width="100%" />
   </a>
 </p>
 
 ### 📬 Quick Direct Connect Links
+- 🌐 **Live Portfolio Website**: **[prakhyatprakhar.netlify.app](https://prakhyatprakhar.netlify.app/)** *(Interactive Demos, 3D Canvas &amp; Production Builds)*
 - 📄 **Curriculum Vitae**: **[Download Resume PDF](https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/Prakhyat-Prakhar-Resume.pdf)** (or view local [`Prakhyat-Prakhar-Resume.pdf`](Prakhyat-Prakhar-Resume.pdf))
 - 💼 **LinkedIn Profile**: [linkedin.com/in/prakhyat-prakhar](https://www.linkedin.com/in/prakhyat-prakhar/)
 - 🐙 **GitHub Profile**: [github.com/Prakhyat05](https://github.com/Prakhyat05)

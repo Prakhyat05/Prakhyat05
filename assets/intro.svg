@@ -41,9 +41,9 @@
       .font-script { font-family: 'Brush Script MT', 'Reenie Beanie', 'Segoe Script', cursive, sans-serif; }
 
       .big-watermark1 {
-        font-size: 135px;
+        font-size: 120px;
         font-weight: 900;
-        letter-spacing: 5px;
+        letter-spacing: 4px;
         fill: #FFFFFF;
         opacity: 0.10;
       }
@@ -112,7 +112,7 @@
   <rect class="pattern-layer1" x="1" y="1" width="958" height="418" rx="20"/>
 
   <g transform="translate(45, 138)">
-    <text class="font-condensed big-watermark1" x="0" y="0">BUILDER</text>
+    <text class="font-condensed big-watermark1" x="0" y="0">ENGINEER</text>
   </g>
 
   <!-- Left: Availability Tag -->

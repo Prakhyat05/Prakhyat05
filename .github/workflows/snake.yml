@@ -2,8 +2,8 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    # Run every 12 hours
-    - cron: "0 */12 * * *"
+    # Run every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -39,6 +39,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/github-contribution-grid-snake.svg || true
-          git commit -m "chore: live sync 365-day contribution snake & stats [skip ci]" || exit 0
-          git push origin main
+          git add assets/github-contribution-grid-snake.svg
+          git diff --staged --quiet || (git commit -m "chore: live sync 365-day contribution snake & stats [skip ci]" && git push origin main)
