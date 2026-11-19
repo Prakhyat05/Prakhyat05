@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="assets/intro.svg?v=1" alt="Prakhyat Prakhar Intro Banner" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/intro.svg?v=2" alt="Prakhyat Prakhar Intro Banner" width="100%" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@
 
 <p align="center">
   <a href="#-key-featured-repositories">
-    <img src="assets/right-now.svg?v=1" alt="What I'm Doing Right Now" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/right-now.svg?v=2" alt="What I'm Doing Right Now" width="100%" />
   </a>
 </p>
 
@@ -41,7 +41,7 @@
 
 <p align="center">
   <a href="https://github.com/Prakhyat05?tab=repositories">
-    <img src="assets/toolkit.svg?v=1" alt="Prakhyat's Developer Toolkit as Keyboard Keys" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/toolkit.svg?v=2" alt="Prakhyat's Developer Toolkit as Keyboard Keys" width="100%" />
   </a>
 </p>
 
@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="assets/github-contribution-grid-snake.svg?v=1" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2104" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
   </a>
 </p>
 
@@ -61,7 +61,7 @@
 
 <p align="center">
   <a href="https://github.com/Prakhyat05/LuminAI">
-    <img src="assets/projects.svg?v=1" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/projects.svg?v=2" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
   </a>
 </p>
 
@@ -81,7 +81,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="assets/card.svg?v=1" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="480" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/card.svg?v=2" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="480" />
   </a>
 </p>
 
@@ -91,7 +91,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="assets/contact.svg?v=1" alt="Call to Collaborate with Prakhyat" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/contact.svg?v=2" alt="Call to Collaborate with Prakhyat" width="100%" />
   </a>
 </p>
 
@@ -101,7 +101,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="assets/say-hi.svg?v=1" alt="Say Hi to Prakhyat" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/say-hi.svg?v=2" alt="Say Hi to Prakhyat" width="100%" />
   </a>
 </p>
 

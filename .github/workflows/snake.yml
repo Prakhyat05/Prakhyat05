@@ -35,9 +35,9 @@ jobs:
           python scripts/build_snake.py
           rm -f assets/snake-raw.svg
 
-      - name: Commit and Push Updated Snake SVG
+      - name: Commit and Push Updated Snake SVG & README
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/github-contribution-grid-snake.svg
+          git add assets/github-contribution-grid-snake.svg README.md
           git diff --staged --quiet || (git commit -m "chore: live sync 365-day contribution snake & stats [skip ci]" && git push origin main)

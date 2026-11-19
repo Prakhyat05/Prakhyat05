@@ -5,7 +5,7 @@ import os
 print("=== Starting Live Snake & Telemetry Sync ===")
 
 # 1. Fetch real-time live contribution count from GitHub
-total_contribs = 2103
+total_contribs = 2104
 active_days = 324
 avg_per_day = 5.8
 
@@ -15,7 +15,7 @@ try:
     with urllib.request.urlopen(req, timeout=10) as resp:
         html = resp.read().decode('utf-8')
         
-        # Parse total from header (e.g. '2,103 contributions in the last year')
+        # Parse total from header (e.g. '2,104 contributions in the last year')
         h2_m = re.search(r'([0-9,]+)\s+contributions\s+in\s+the\s+last\s+year', html)
         if h2_m:
             total_contribs = int(h2_m.group(1).replace(',', ''))
@@ -36,11 +36,11 @@ try:
         avg_per_day = total_contribs / 365.0
         print(f"Calculated average velocity: {avg_per_day:.1f} commits/day")
 except Exception as e:
-    print(f"Warning: Could not fetch live html from GitHub ({e}), using cached fallback: {total_contribs}")
+    print(f"Warning: Could not fetch live html from GitHub ({e}), using fallback: {total_contribs}")
 
 # 2. Locate raw snake SVG
 raw_path = None
-for candidate in ['assets/snake-raw.svg', 'assets/github-contribution-grid-snake-dark.svg', 'assets/github-contribution-grid-snake.svg', 'snake_sample.svg']:
+for candidate in ['assets/snake-raw.svg', 'assets/github-contribution-grid-snake.svg', 'snake_sample.svg']:
     if os.path.exists(candidate):
         raw_path = candidate
         break
@@ -188,3 +188,19 @@ with open('assets/github-contribution-grid-snake.svg', 'w', encoding='utf-8') as
     f.write(snake_dashboard_svg)
 
 print(f"Successfully generated assets/github-contribution-grid-snake.svg with {total_contribs:,} contributions across {active_days} active days!")
+
+# 3. Synchronize README.md with the latest live version tag to guarantee zero cache lag
+readme_path = 'README.md'
+if os.path.exists(readme_path):
+    with open(readme_path, 'r', encoding='utf-8') as f:
+        readme_text = f.read()
+    
+    updated_readme = re.sub(
+        r'(github-contribution-grid-snake\.svg\?v=)[^\"]*',
+        rf'\g<1>{total_contribs}',
+        readme_text
+    )
+    if updated_readme != readme_text:
+        with open(readme_path, 'w', encoding='utf-8') as f:
+            f.write(updated_readme)
+        print(f"Synchronized README.md cache buster with ?v={total_contribs}")
