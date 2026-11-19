@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/intro.svg?v=2" alt="Prakhyat Prakhar Intro Banner" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/intro.svg?v=20261119" alt="Prakhyat Prakhar Intro Banner" width="100%" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@
 
 <p align="center">
   <a href="#-key-featured-repositories">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/right-now.svg?v=2" alt="What I'm Doing Right Now" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/right-now.svg?v=20261119" alt="What I'm Doing Right Now" width="100%" />
   </a>
 </p>
 
@@ -41,17 +41,37 @@
 
 <p align="center">
   <a href="https://github.com/Prakhyat05?tab=repositories">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/toolkit.svg?v=2" alt="Prakhyat's Developer Toolkit as Keyboard Keys" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/toolkit.svg?v=20261119" alt="Prakhyat's Developer Toolkit as Keyboard Keys" width="100%" />
   </a>
 </p>
 
 ---
 
-## 🐍 4. Live 365-Day GitHub Contribution Snake &amp; Commit Telemetry
+## 📊 4. Real-Time GitHub Contribution Calendar &amp; Live Telemetry
 
+> ⚡ **Automated Real-Time Sync**: Direct live connection to GitHub's contribution telemetry. Every commit pushed to any repository automatically lights up the 365-day calendar grid dots in real time without manual rebuilds.
+
+### 🟩 Live 365-Day Contribution Calendar (Real-Time Green Dots)
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2114" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
+    <img src="https://ghchart.rshah.org/10B981/Prakhyat05" alt="Prakhyat Prakhar's Real-Time GitHub Contributions Calendar Graph" width="100%" />
+  </a>
+</p>
+
+### 📈 Live Velocity &amp; Commit Telemetry Radar
+<p align="center">
+  <a href="https://github.com/Prakhyat05">
+    <img src="https://streak-stats.demolab.com/?user=Prakhyat05&amp;theme=dark&amp;background=071A12&amp;border=10B981&amp;stroke=2DD4BF&amp;ring=10B981&amp;fire=10B981&amp;currStreakLabel=2DD4BF&amp;sideNums=E2E8F0&amp;sideLabels=94A3B8&amp;dates=64748B" alt="Prakhyat's GitHub Streak Telemetry" height="195" />
+  </a>
+  <a href="https://github.com/Prakhyat05">
+    <img src="https://github-readme-stats.vercel.app/api?username=Prakhyat05&amp;show_icons=true&amp;theme=dark&amp;bg_color=071A12&amp;border_color=10B981&amp;title_color=2DD4BF&amp;icon_color=10B981&amp;text_color=E2E8F0" alt="Prakhyat's GitHub Live Stats" height="195" />
+  </a>
+</p>
+
+### 🐍 Autonomous 365-Day Contribution Snake Animation
+<p align="center">
+  <a href="https://github.com/Prakhyat05">
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2223" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
   </a>
 </p>
 
@@ -61,7 +81,7 @@
 
 <p align="center">
   <a href="https://github.com/Prakhyat05/LuminAI">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/projects.svg?v=2" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/projects.svg?v=20261119" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
   </a>
 </p>
 
@@ -81,7 +101,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/card.svg?v=2" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="480" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/card.svg?v=20261119" alt="Prakhyat Prakhar Collectible Holographic Trading Card" width="480" />
   </a>
 </p>
 
@@ -91,7 +111,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/contact.svg?v=2" alt="Call to Collaborate with Prakhyat" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/contact.svg?v=20261119" alt="Call to Collaborate with Prakhyat" width="100%" />
   </a>
 </p>
 
@@ -101,7 +121,7 @@
 
 <p align="center">
   <a href="https://prakhyatprakhar.netlify.app/">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/say-hi.svg?v=2" alt="Say Hi to Prakhyat" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/say-hi.svg?v=20261119" alt="Say Hi to Prakhyat" width="100%" />
   </a>
 </p>
 

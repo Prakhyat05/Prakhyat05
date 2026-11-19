@@ -106,11 +106,11 @@ dynamic_snake_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960
     /* Live Status Radar Ping */
     .radar-pulse {{
       animation: radarRing 2.4s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
-      transform-origin: 12px 12px;
+      transform-origin: 14px 12px;
     }}
     @keyframes radarRing {{
       0% {{ r: 3; opacity: 1; }}
-      50% {{ r: 8; opacity: 0; }}
+      50% {{ r: 9; opacity: 0; }}
       100% {{ r: 3; opacity: 0; }}
     }}
 
@@ -122,48 +122,11 @@ dynamic_snake_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960
       100% {{ fill: #34D399; filter: drop-shadow(0 0 6px #2DD4BF); }}
     }}
 
-    /* Dynamic Digital Counter Step Animation */
-    .step-num {{
+    .stat-number {{
       font-family: 'Plus Jakarta Sans', sans-serif;
       font-size: 26px;
       font-weight: 900;
       letter-spacing: 0.5px;
-    }}
-
-    /* Staggered transition revealing live increments */
-    .c-s1 {{ animation: animS1 2.8s forwards; }}
-    .c-s2 {{ animation: animS2 2.8s forwards; }}
-    .c-s3 {{ animation: animS3 2.8s forwards; }}
-    .c-s4 {{ animation: animS4 2.8s forwards; }}
-
-    @keyframes animS1 {{
-      0% {{ opacity: 1; transform: translateY(0); }}
-      24% {{ opacity: 1; transform: translateY(0); }}
-      25% {{ opacity: 0; transform: translateY(-8px); }}
-      100% {{ opacity: 0; transform: translateY(-8px); }}
-    }}
-    @keyframes animS2 {{
-      0% {{ opacity: 0; transform: translateY(8px); }}
-      24% {{ opacity: 0; transform: translateY(8px); }}
-      25% {{ opacity: 1; transform: translateY(0); }}
-      49% {{ opacity: 1; transform: translateY(0); }}
-      50% {{ opacity: 0; transform: translateY(-8px); }}
-      100% {{ opacity: 0; transform: translateY(-8px); }}
-    }}
-    @keyframes animS3 {{
-      0% {{ opacity: 0; transform: translateY(8px); }}
-      49% {{ opacity: 0; transform: translateY(8px); }}
-      50% {{ opacity: 1; transform: translateY(0); }}
-      74% {{ opacity: 1; transform: translateY(0); }}
-      75% {{ opacity: 0; transform: translateY(-8px); }}
-      100% {{ opacity: 0; transform: translateY(-8px); }}
-    }}
-    @keyframes animS4 {{
-      0% {{ opacity: 0; transform: translateY(8px); }}
-      74% {{ opacity: 0; transform: translateY(8px); }}
-      75% {{ opacity: 1; transform: translateY(0); filter: drop-shadow(0 0 8px #2DD4BF); }}
-      88% {{ filter: drop-shadow(0 0 12px #34D399); }}
-      100% {{ opacity: 1; transform: translateY(0); filter: none; }}
     }}
 
     /* Floating "+1" Commit Indicator Particle */
@@ -182,8 +145,6 @@ dynamic_snake_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960
     }}
 
     @media (prefers-reduced-motion: reduce) {{
-      .c-s1, .c-s2, .c-s3 {{ display: none !important; }}
-      .c-s4 {{ opacity: 1 !important; transform: none !important; }}
       .particle-float, .radar-pulse {{ animation: none !important; }}
     }}
   </style>
@@ -210,39 +171,24 @@ dynamic_snake_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960
 
   <!-- 4 Big Live Stats Counters (Dynamic Step-Animated Odometer) -->
   <g transform="translate(36, 62)">
-    <!-- Metric 1: Total Contributions with Dynamic Step Counter -->
+    <!-- Metric 1: Total Contributions -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      
-      <!-- Counter Animation Sequence -->
-      <g>
-        <text class="step-num c-s1" x="18" y="32" fill="#2DD4BF">{s1_val}</text>
-        <text class="step-num c-s2" x="18" y="32" fill="#2DD4BF">{s2_val}</text>
-        <text class="step-num c-s3" x="18" y="32" fill="#2DD4BF">{s3_val}</text>
-        <text class="step-num c-s4" x="18" y="32" fill="#2DD4BF">{s4_val}</text>
-      </g>
+      <text class="stat-number" x="18" y="32" fill="#2DD4BF">{total_contribs:,}</text>
 
-      <!-- Floating particle indicating live delta -->
-      <g transform="translate(142, 28)">
+      <!-- Floating particle indicating live activity -->
+      <g transform="translate(148, 28)">
         <text class="particle-float">+1 ✦</text>
       </g>
 
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">TOTAL CONTRIBUTIONS</text>
-      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">● Real-time Live Tracked</text>
+      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">● Continuous GitHub Sync</text>
     </g>
 
-    <!-- Metric 2: Total Commits & Merges with Dynamic Step Counter -->
+    <!-- Metric 2: Total Commits & Merges -->
     <g transform="translate(226, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      
-      <!-- Counter Animation Sequence -->
-      <g>
-        <text class="step-num c-s1" x="18" y="32" fill="#34D399">{s1_val_plus}</text>
-        <text class="step-num c-s2" x="18" y="32" fill="#34D399">{s2_val_plus}</text>
-        <text class="step-num c-s3" x="18" y="32" fill="#34D399">{s3_val_plus}</text>
-        <text class="step-num c-s4" x="18" y="32" fill="#34D399">{s4_val_plus}</text>
-      </g>
-
+      <text class="stat-number" x="18" y="32" fill="#34D399">{total_contribs:,}+</text>
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">RECORDED COMMITS</text>
       <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">Production Code Merges</text>
     </g>
