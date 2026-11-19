@@ -299,7 +299,7 @@
       <!-- Flavor Text / Quote -->
       <g transform="translate(10, 14)">
         <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-style="italic" fill="#64748B">"Architecting zero-downtime distributed systems &amp; cutting-edge on-device AI."</text>
-        <text x="0" y="16" font-family="'Fira Code', monospace" font-size="8" fill="#10B981">SLIET LONGOWAL • 8.57 CGPA • 2,103+ COMMITS • TOP 1% VELOCITY</text>
+        <text x="0" y="16" font-family="'Fira Code', monospace" font-size="8" fill="#10B981">SLIET LONGOWAL • 8.57 CGPA • 2,113+ COMMITS • TOP 1% VELOCITY</text>
         <text x="0" y="30" font-family="'Fira Code', monospace" font-size="7.5" fill="#475569">PORTFOLIO: prakhyatprakhar.netlify.app • ED. #001/100 • RAINBOW HOLO</text>
       </g>
 

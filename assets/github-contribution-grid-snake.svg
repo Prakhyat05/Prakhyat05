@@ -13,8 +13,8 @@
       <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.75"/>
     </linearGradient>
     <linearGradient id="statCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0D2C1D" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#071911" stop-opacity="0.8"/>
+      <stop offset="0%" stop-color="#0D2C1D" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#071911" stop-opacity="0.85"/>
     </linearGradient>
     <filter id="shadowSnake" x="-10%" y="-10%" width="130%" height="130%">
       <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
@@ -24,13 +24,88 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800;900&amp;family=Fira+Code:wght@600;700&amp;display=swap');
     
-    .pulse-dot {
-      animation: pulseDotAnim 2s infinite ease-in-out;
+    /* Live Status Radar Ping */
+    .radar-pulse {
+      animation: radarRing 2.4s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform-origin: 12px 12px;
     }
-    @keyframes pulseDotAnim {
-      0% { r: 3.5; opacity: 1; }
-      50% { r: 5.5; opacity: 0.5; }
-      100% { r: 3.5; opacity: 1; }
+    @keyframes radarRing {
+      0% { r: 3; opacity: 1; }
+      50% { r: 8; opacity: 0; }
+      100% { r: 3; opacity: 0; }
+    }
+
+    .live-dot-glow {
+      animation: dotGlow 1.8s infinite ease-in-out alternate;
+    }
+    @keyframes dotGlow {
+      0% { fill: #10B981; filter: drop-shadow(0 0 1px #10B981); }
+      100% { fill: #34D399; filter: drop-shadow(0 0 6px #2DD4BF); }
+    }
+
+    /* Dynamic Digital Counter Step Animation */
+    .step-num {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 26px;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+    }
+
+    /* Staggered transition revealing live increments */
+    .c-s1 { animation: animS1 2.8s forwards; }
+    .c-s2 { animation: animS2 2.8s forwards; }
+    .c-s3 { animation: animS3 2.8s forwards; }
+    .c-s4 { animation: animS4 2.8s forwards; }
+
+    @keyframes animS1 {
+      0% { opacity: 1; transform: translateY(0); }
+      24% { opacity: 1; transform: translateY(0); }
+      25% { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes animS2 {
+      0% { opacity: 0; transform: translateY(8px); }
+      24% { opacity: 0; transform: translateY(8px); }
+      25% { opacity: 1; transform: translateY(0); }
+      49% { opacity: 1; transform: translateY(0); }
+      50% { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes animS3 {
+      0% { opacity: 0; transform: translateY(8px); }
+      49% { opacity: 0; transform: translateY(8px); }
+      50% { opacity: 1; transform: translateY(0); }
+      74% { opacity: 1; transform: translateY(0); }
+      75% { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes animS4 {
+      0% { opacity: 0; transform: translateY(8px); }
+      74% { opacity: 0; transform: translateY(8px); }
+      75% { opacity: 1; transform: translateY(0); filter: drop-shadow(0 0 8px #2DD4BF); }
+      88% { filter: drop-shadow(0 0 12px #34D399); }
+      100% { opacity: 1; transform: translateY(0); filter: none; }
+    }
+
+    /* Floating "+1" Commit Indicator Particle */
+    .particle-float {
+      animation: floatUp 3.2s infinite ease-out;
+      font-family: 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #34D399;
+    }
+    @keyframes floatUp {
+      0% { opacity: 0; transform: translateY(0); }
+      40% { opacity: 1; }
+      80% { opacity: 0.8; transform: translateY(-16px); }
+      100% { opacity: 0; transform: translateY(-22px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .c-s1, .c-s2, .c-s3 { display: none !important; }
+      .c-s4 { opacity: 1 !important; transform: none !important; }
+      .particle-float, .radar-pulse { animation: none !important; }
     }
   </style>
 
@@ -41,31 +116,54 @@
   <g transform="translate(36, 24)">
     <!-- Badge -->
     <rect x="0" y="0" width="248" height="24" rx="12" fill="#0C2F1E" stroke="#2DD4BF" stroke-opacity="0.4" stroke-width="1"/>
-    <circle class="pulse-dot" cx="12" cy="12" r="4" fill="#2DD4BF"/>
+    <circle class="live-dot-glow" cx="12" cy="12" r="4"/>
     <text x="24" y="16" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#A7F3D0" letter-spacing="1">LIVE CONTRIBUTION TELEMETRY</text>
 
-    <!-- Right-aligned Live Status -->
-    <g transform="translate(680, 0)">
-      <rect x="0" y="0" width="208" height="24" rx="12" fill="#082216" stroke="#10B981" stroke-width="0.8"/>
-      <circle cx="12" cy="12" r="3.5" fill="#10B981"/>
-      <text x="24" y="16" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#6EE7B7">SYNCED VIA ACTIONS // LIVE</text>
+    <!-- Right-aligned Live Status with Radar Ping -->
+    <g transform="translate(670, 0)">
+      <rect x="0" y="0" width="218" height="24" rx="12" fill="#082216" stroke="#10B981" stroke-width="0.8"/>
+      <!-- Radar Wave Ring -->
+      <circle class="radar-pulse" cx="14" cy="12" r="4" fill="none" stroke="#2DD4BF" stroke-width="1"/>
+      <circle class="live-dot-glow" cx="14" cy="12" r="3.5"/>
+      <text x="26" y="16" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#6EE7B7">DYNAMIC REAL-TIME SYNC</text>
     </g>
   </g>
 
-  <!-- 4 Big Live Stats Counters (Real-time synced from GitHub) -->
+  <!-- 4 Big Live Stats Counters (Dynamic Step-Animated Odometer) -->
   <g transform="translate(36, 62)">
-    <!-- Metric 1: Total Contributions -->
+    <!-- Metric 1: Total Contributions with Dynamic Step Counter -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#2DD4BF" letter-spacing="0.5">2,105</text>
+      
+      <!-- Counter Animation Sequence -->
+      <g>
+        <text class="step-num c-s1" x="18" y="32" fill="#2DD4BF">2,110</text>
+        <text class="step-num c-s2" x="18" y="32" fill="#2DD4BF">2,111</text>
+        <text class="step-num c-s3" x="18" y="32" fill="#2DD4BF">2,112</text>
+        <text class="step-num c-s4" x="18" y="32" fill="#2DD4BF">2,113</text>
+      </g>
+
+      <!-- Floating particle indicating live delta -->
+      <g transform="translate(142, 28)">
+        <text class="particle-float">+1 ✦</text>
+      </g>
+
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">TOTAL CONTRIBUTIONS</text>
-      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">Past 365 Days Verified</text>
+      <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">● Real-time Live Tracked</text>
     </g>
 
-    <!-- Metric 2: Total Commits & Merges -->
+    <!-- Metric 2: Total Commits & Merges with Dynamic Step Counter -->
     <g transform="translate(226, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      <text x="18" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#34D399" letter-spacing="0.5">2,105+</text>
+      
+      <!-- Counter Animation Sequence -->
+      <g>
+        <text class="step-num c-s1" x="18" y="32" fill="#34D399">2,110+</text>
+        <text class="step-num c-s2" x="18" y="32" fill="#34D399">2,111+</text>
+        <text class="step-num c-s3" x="18" y="32" fill="#34D399">2,112+</text>
+        <text class="step-num c-s4" x="18" y="32" fill="#34D399">2,113+</text>
+      </g>
+
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">RECORDED COMMITS</text>
       <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">Production Code Merges</text>
     </g>
@@ -106,6 +204,6 @@
     <text x="108" y="0" font-family="'Fira Code', monospace" font-size="10" fill="#9CA3AF">More</text>
 
     <text x="320" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Autonomous snake slithering across real-time 365-day commit history</text>
-    <text x="730" y="0" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#2DD4BF">● 2,105 TOTAL COMMITS</text>
+    <text x="730" y="0" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#2DD4BF">● 2,113 TOTAL COMMITS</text>
   </g>
 </svg>

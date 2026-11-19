@@ -2,8 +2,8 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: "0 */6 * * *"
+    # Run automatically every 30 minutes for real-time synchronization
+    - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     branches:
@@ -29,6 +29,8 @@ jobs:
           github_user_name: Prakhyat05
           outputs: |
             assets/snake-raw.svg?palette=github-dark&color_snake=#2DD4BF&color_dots=#071a12,#0a3d24,#10b981,#34d399,#6ee7b7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Wrap Snake with Live Contribution Telemetry
         run: |
