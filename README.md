@@ -54,17 +54,20 @@
 ### 🟩 Live 365-Day Contribution Calendar (Real-Time Green Dots)
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://ghchart.rshah.org/10B981/Prakhyat05" alt="Prakhyat Prakhar's Real-Time GitHub Contributions Calendar Graph" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/contribution-calendar.svg?v=2268" alt="Prakhyat Prakhar's Real-Time 365-Day GitHub Contributions Calendar Heatmap" width="100%" />
   </a>
 </p>
 
 ### 📈 Live Velocity &amp; Commit Telemetry Radar
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://streak-stats.demolab.com/?user=Prakhyat05&amp;theme=dark&amp;background=071A12&amp;border=10B981&amp;stroke=2DD4BF&amp;ring=10B981&amp;fire=10B981&amp;currStreakLabel=2DD4BF&amp;sideNums=E2E8F0&amp;sideLabels=94A3B8&amp;dates=64748B" alt="Prakhyat's GitHub Streak Telemetry" height="195" />
+    <img src="https://streak-stats.demolab.com/?user=Prakhyat05&amp;theme=dark&amp;background=071A12&amp;border=10B981&amp;stroke=2DD4BF&amp;ring=10B981&amp;fire=10B981&amp;currStreakLabel=2DD4BF&amp;sideNums=E2E8F0&amp;sideLabels=94A3B8&amp;dates=64748B" alt="Prakhyat's GitHub Streak Telemetry" height="205" />
   </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://github-readme-stats.vercel.app/api?username=Prakhyat05&amp;show_icons=true&amp;theme=dark&amp;bg_color=071A12&amp;border_color=10B981&amp;title_color=2DD4BF&amp;icon_color=10B981&amp;text_color=E2E8F0" alt="Prakhyat's GitHub Live Stats" height="195" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prakhyat05&amp;theme=github-dark&amp;bg_color=071A12&amp;color=10B981&amp;line=2DD4BF&amp;point=34D399&amp;area=true&amp;hide_border=false" alt="Prakhyat's Real-Time Commit Velocity Radar Graph" width="100%" />
   </a>
 </p>
 

@@ -18,4 +18,5 @@ __pycache__/
 *.pyc
 *.py
 !scripts/build_snake.py
+!scripts/build_calendar.py
 snake_sample.svg

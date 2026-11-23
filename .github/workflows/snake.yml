@@ -34,6 +34,7 @@ jobs:
 
       - name: Wrap Snake with Live Contribution Telemetry
         run: |
+          python scripts/build_calendar.py
           python scripts/build_snake.py
           rm -f assets/snake-raw.svg
 
@@ -41,5 +42,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/github-contribution-grid-snake.svg README.md
-          git diff --staged --quiet || (git commit -m "chore: live sync 365-day contribution snake & stats [skip ci]" && git push origin main)
+          git add assets/contribution-calendar.svg assets/github-contribution-grid-snake.svg README.md
+          git diff --staged --quiet || (git commit -m "chore: live sync 365-day contribution calendar & snake stats [skip ci]" && git push origin main)
