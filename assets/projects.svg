@@ -116,16 +116,16 @@
       <text x="14" y="108" class="font-mono" font-size="9" fill="#6EE7B7">github.com/Prakhyat05/IESSD-26</text>
     </g>
 
-    <!-- CARD 5: RapsApp -->
+    <!-- CARD 5: Fixora -->
     <g transform="translate(0, 268)">
       <rect width="658" height="105" rx="12" fill="#113120" stroke="#2DD4BF" stroke-width="1" class="badge-glow" filter="url(#shadowProjects)"/>
       <circle cx="28" cy="28" r="14" fill="#0A1F14"/>
       <text x="28" y="34" font-size="15" text-anchor="middle">🛠️</text>
-      <text x="52" y="24" class="font-mono" font-size="10" font-weight="700" fill="#34D399">PRAKHYAT05 / RAPSAPP</text>
+      <text x="52" y="24" class="font-mono" font-size="10" font-weight="700" fill="#34D399">PRAKHYAT05 / FIXORA</text>
       <text x="52" y="42" class="font-sans" font-size="16" font-weight="800" fill="#FFFFFF">Hyperlocal On-Demand Service &amp; Handyman Marketplace</text>
       <text x="14" y="70" class="font-sans" font-size="11.5" fill="#CBD5E1">Full-stack mobile app with live interactive web demo, real-time service booking &amp; geo-scheduling</text>
       <text x="14" y="88" class="font-mono" font-size="9.5" fill="#2DD4BF">Flutter • Dart • Cloud Architecture • Web Demo</text>
-      <text x="440" y="88" class="font-mono" font-size="9" fill="#6EE7B7">github.com/Prakhyat05/rapsapp</text>
+      <text x="440" y="88" class="font-mono" font-size="9" fill="#6EE7B7">github.com/Prakhyat05/Fixora</text>
     </g>
   </g>
 

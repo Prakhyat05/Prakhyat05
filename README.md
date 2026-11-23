@@ -71,7 +71,7 @@
 ### 🐍 Autonomous 365-Day Contribution Snake Animation
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2219" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2267" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
   </a>
 </p>
 
@@ -81,7 +81,7 @@
 
 <p align="center">
   <a href="https://github.com/Prakhyat05/LuminAI">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/projects.svg?v=20261119" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/projects.svg?v=20261123" alt="Featured Repositories &amp; Architecture Highlights" width="100%" />
   </a>
 </p>
 
@@ -93,7 +93,7 @@
 | **[Prakhyat05/LuminAI](https://github.com/Prakhyat05/LuminAI)** <br><sub>Elite AI Personal Fitness Trainer</sub> | `Flutter` • `Google ML Kit` • `MediaPipe` • `Gemini API` • `SQLite` | • Real-time cross-platform pose detection and biomechanical multi-joint coordinate extraction at **30+ FPS** on-device.<br>• Integrated **Gemini API** with structured prompt engineering and asynchronous thread isolation in Flutter, generating dynamic workouts in **under 1.2s** at **60 Hz** UI rendering. | [🐙 GitHub Repository](https://github.com/Prakhyat05/LuminAI) |
 | **[Prakhyat05/OmniMark-OMR_Scan_Evaluator](https://github.com/Prakhyat05/OmniMark-OMR_Scan_Evaluator)** <br><sub>High-Precision Mobile OMR Evaluator</sub> | `Dart` • `Flutter` • `OpenCV` • `PyTorch Micro-CNN` • `FastAPI` • `Supabase` | • Mobile Optical Mark Recognition (OMR) scanner with edge-computed computer vision and PyTorch Micro-CNN bubble classification.<br>• Offline-first SQLite outbox synchronization pipeline with automated Supabase cloud exam grading reporting. | [🐙 GitHub Repository](https://github.com/Prakhyat05/OmniMark-OMR_Scan_Evaluator) |
 | **[Prakhyat05/IESSD-26](https://github.com/Prakhyat05/IESSD-26)** <br><sub>International Conference Web Portal</sub> | `React` • `TypeScript` • `Tailwind CSS` • `Vite` | • Official web portal for **IESSD'26** (*International Conference on Innovative Engineering Solutions for Sustainable Development* at SLIET Longowal).<br>• High-speed responsive registration, speaker schedule, and paper submission portal. | [🐙 GitHub Repository](https://github.com/Prakhyat05/IESSD-26) |
-| **[Prakhyat05/rapsapp](https://github.com/Prakhyat05/rapsapp)** <br><sub>Hyperlocal On-Demand Service App</sub> | `Dart` • `Flutter` • `Firebase` • `Geolocation` • `Interactive Web Demo` | • Full-featured on-demand service and handyman marketplace application with real-time technician discovery and instant booking.<br>• Includes live interactive web simulation and reactive state management. | [🐙 GitHub Repository](https://github.com/Prakhyat05/rapsapp) |
+| **[Prakhyat05/Fixora](https://github.com/Prakhyat05/Fixora)** <br><sub>Hyperlocal On-Demand Service App</sub> | `Dart` • `Flutter` • `Firebase` • `Geolocation` • `Interactive Web Demo` | • Full-featured on-demand service and handyman marketplace application with real-time technician discovery and instant booking.<br>• Includes live interactive web simulation and reactive state management. | [🐙 GitHub Repository](https://github.com/Prakhyat05/Fixora) |
 
 ---
 
