@@ -95,7 +95,7 @@
     <!-- Metric 1: Total Contributions -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      <text class="stat-number" x="18" y="32" fill="#2DD4BF">2,268</text>
+      <text class="stat-number" x="18" y="32" fill="#2DD4BF">2,269</text>
 
       <!-- Floating particle indicating live activity -->
       <g transform="translate(148, 28)">
@@ -109,7 +109,7 @@
     <!-- Metric 2: Total Commits & Merges -->
     <g transform="translate(226, 0)">
       <rect x="0" y="0" width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#134E35" stroke-width="1"/>
-      <text class="stat-number" x="18" y="32" fill="#34D399">2,268+</text>
+      <text class="stat-number" x="18" y="32" fill="#34D399">2,269+</text>
       <text x="18" y="48" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" fill="#E2E8F0">RECORDED COMMITS</text>
       <text x="18" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#6EE7B7">Production Code Merges</text>
     </g>
@@ -150,6 +150,6 @@
     <text x="108" y="0" font-family="'Fira Code', monospace" font-size="10" fill="#9CA3AF">More</text>
 
     <text x="320" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Autonomous snake slithering across real-time 365-day commit history</text>
-    <text x="730" y="0" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#2DD4BF">● 2,268 TOTAL COMMITS</text>
+    <text x="730" y="0" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#2DD4BF">● 2,269 TOTAL COMMITS</text>
   </g>
 </svg>
