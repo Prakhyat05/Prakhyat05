@@ -249,6 +249,11 @@ if os.path.exists(readme_path):
         rf'\g<1>{total_contribs}',
         readme_text
     )
+    updated_readme = re.sub(
+        r'(&amp;v=)[0-9]+',
+        rf'\g<1>{total_contribs}',
+        updated_readme
+    )
     if updated_readme != readme_text:
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(updated_readme)

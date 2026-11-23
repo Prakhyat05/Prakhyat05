@@ -61,7 +61,7 @@
 ### 📈 Live Velocity &amp; Commit Telemetry Radar
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://streak-stats.demolab.com/?user=Prakhyat05&amp;theme=dark&amp;background=071A12&amp;border=10B981&amp;stroke=2DD4BF&amp;ring=10B981&amp;fire=10B981&amp;currStreakLabel=2DD4BF&amp;sideNums=E2E8F0&amp;sideLabels=94A3B8&amp;dates=64748B" alt="Prakhyat's GitHub Streak Telemetry" height="205" />
+    <img src="https://streak-stats.demolab.com/?user=Prakhyat05&amp;theme=dark&amp;background=071A12&amp;border=10B981&amp;stroke=2DD4BF&amp;ring=10B981&amp;fire=10B981&amp;currStreakLabel=2DD4BF&amp;sideNums=E2E8F0&amp;sideLabels=94A3B8&amp;dates=64748B&amp;timezone=Asia%2FKolkata&amp;v=2268" alt="Prakhyat's GitHub Streak Telemetry" height="205" />
   </a>
 </p>
 
