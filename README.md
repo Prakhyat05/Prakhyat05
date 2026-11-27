@@ -54,14 +54,14 @@
 ### 🟩 Live 365-Day Contribution Calendar (Real-Time Green Dots)
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/contribution-calendar.svg?v=2319" alt="Prakhyat Prakhar's Real-Time 365-Day GitHub Contributions Calendar Heatmap" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/contribution-calendar.svg?v=2329" alt="Prakhyat Prakhar's Real-Time 365-Day GitHub Contributions Calendar Heatmap" width="100%" />
   </a>
 </p>
 
 ### 📈 Live Velocity &amp; Commit Telemetry Radar
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://streak-stats.demolab.com/?user=Prakhyat05&amp;theme=dark&amp;background=071A12&amp;border=10B981&amp;stroke=2DD4BF&amp;ring=10B981&amp;fire=10B981&amp;currStreakLabel=2DD4BF&amp;sideNums=E2E8F0&amp;sideLabels=94A3B8&amp;dates=64748B&amp;timezone=Asia%2FKolkata&amp;v=2319" alt="Prakhyat's GitHub Streak Telemetry" height="205" />
+    <img src="https://streak-stats.demolab.com/?user=Prakhyat05&amp;theme=dark&amp;background=071A12&amp;border=10B981&amp;stroke=2DD4BF&amp;ring=10B981&amp;fire=10B981&amp;currStreakLabel=2DD4BF&amp;sideNums=E2E8F0&amp;sideLabels=94A3B8&amp;dates=64748B&amp;timezone=Asia%2FKolkata&amp;v=2329" alt="Prakhyat's GitHub Streak Telemetry" height="205" />
   </a>
 </p>
 
@@ -74,7 +74,7 @@
 ### 🐍 Autonomous 365-Day Contribution Snake Animation
 <p align="center">
   <a href="https://github.com/Prakhyat05">
-    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2319" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
+    <img src="https://raw.githubusercontent.com/Prakhyat05/Prakhyat05/main/assets/github-contribution-grid-snake.svg?v=2329" alt="Prakhyat's Live 365-Day GitHub Contribution Snake Animation &amp; Commit Telemetry" width="100%" />
   </a>
 </p>
 
